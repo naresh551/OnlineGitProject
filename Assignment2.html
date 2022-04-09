@@ -1,0 +1,36 @@
+
+
+<html>  
+<head>
+
+	<h1 style="text-align:center">Additon Of Two Numbers:</h1>
+</head>
+
+<body>
+	
+	<script>
+		function property1() 
+	{
+		var a = parseInt(document.getElementById("001").value);
+		var b = parseInt(document.getElementById("002").value);
+		var x = a + b;
+		document.getElementById("result").innerHTML = x;
+	}
+
+		
+	
+	</script>	
+
+	Enter 1st Number:
+		<input type="number" value="" id="001"><br><br>
+
+	Enter 2nd Number:
+		<input type="number" value="" id="002"><br><br>
+
+	
+		<input type="submit" value="add(+)" onclick="return property1()">
+		
+		<b>Result is:</b><br>
+		<span id="result"></span>
+</body>
+</html>
